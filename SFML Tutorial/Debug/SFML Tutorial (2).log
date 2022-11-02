@@ -1,0 +1,12 @@
+﻿D:\Visual Studio 2017 trial\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFML Tutorial.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Main.cpp
+c:\dev\sidescroller\sfml tutorial\main.cpp(22): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\dev\sidescroller\sfml tutorial\main.cpp(51): warning C4305: '=': truncation from 'double' to 'float'
+c:\dev\sidescroller\sfml tutorial\main.cpp(70): warning C4018: '<': signed/unsigned mismatch
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::SoundSource::setVolume(float)" (__imp_?setVolume@SoundSource@sf@@QAEXM@Z) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall sf::SoundStream::play(void)" (__imp_?play@SoundStream@sf@@UAEXXZ) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual enum sf::SoundSource::Status __thiscall sf::SoundStream::getStatus(void)const " (__imp_?getStatus@SoundStream@sf@@UBE?AW4Status@SoundSource@2@XZ) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Music::Music(void)" (__imp_??0Music@sf@@QAE@XZ) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::Music::~Music(void)" (__imp_??1Music@sf@@UAE@XZ) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Music::openFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?openFromFile@Music@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _main
+C:\Dev\Sidescroller\Debug\Sidescrollers.exe : fatal error LNK1120: 6 unresolved externals

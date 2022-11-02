@@ -1,0 +1,6 @@
+﻿D:\Visual Studio 2017 trial\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFML Tutorial.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Main.cpp
+c:\dev\sidescroller\sfml tutorial\main.cpp(24): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\dev\sidescroller\sfml tutorial\main.cpp(83): warning C4305: '=': truncation from 'double' to 'float'
+c:\dev\sidescroller\sfml tutorial\main.cpp(102): warning C4018: '<': signed/unsigned mismatch
+  SFML Tutorial.vcxproj -> C:\Dev\Sidescroller\Debug\Sidescrollers.exe
